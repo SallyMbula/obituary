@@ -1,0 +1,46 @@
+<!-- obituary.html -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obituary Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Obituary Form</h1>
+    <form id="obituary-form" action="/submit-obituary" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="date-of-birth">Date of Birth:</label>
+        <input type="date" id="date-of-birth" name="date_of_birth"><br><br>
+        <label for="date-of-death">Date of Death:</label>
+        <input type="date" id="date-of-death" name="date_of_death"><br><br>
+        <label for="content">Content:</label>
+        <textarea id="content" name="content"></textarea><br><br>
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author"><br><br>
+        <button type="submit">Submit Obituary</button>
+    </form>
+
+    <script src="node.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
